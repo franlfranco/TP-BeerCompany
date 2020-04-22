@@ -13,7 +13,8 @@ Se utilizan bloques sincronizados porque existe un recurso que es compartido.
 El recurso compartido es la unidad de cerveza, ya que se accede al mismo tanto para ser producido como para ser consumido. Se deben sincronizar estas acciones para evitar conflictos.
 
 # Tres formas de crear Threads.
-1)Interfaz Runnable: Implementando la interfaz runnable.
+
+1) Interfaz Runnable: Implementando la interfaz runnable.
 Instanciacion : new Thread(new ClaseNueva()). 
 
 2) Clase Thread: Extendiendo la clase Thread, la desventaja de esta forma es que Java no permite la herencia múltiple.
